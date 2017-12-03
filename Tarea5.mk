@@ -2,7 +2,7 @@
 
 All: *pdf
 
-*.pdf: grafica.png
+*.pdf: grafica.png Results_hw5.tex
 	pdflatex Results_hw5.tex
 
 grafica.png: resultados.dat Plots.py
