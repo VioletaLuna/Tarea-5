@@ -5,7 +5,7 @@ All: *pdf
 *.pdf: grafica.png
 	pdflatex Results_hw5.tex
 
-grafica.png: resultados.dat
+grafica.png: resultados.dat Plots.py
 	python Plots.py
 
 resultados.dat: CurvaRotacion.c
